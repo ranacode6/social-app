@@ -1,5 +1,5 @@
 {
-	"homepage": "https://social-app-five-pink.vercel.app",
+	"homepage": "http://localhost:4000",
 	"name": "social-app",
 	"version": "0.1.0",
 	"private": true,
