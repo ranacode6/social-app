@@ -1,0 +1,36 @@
+.notFound {
+	height: 100vh;
+	background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+	box-sizing: border-box;
+	padding: 2vmax;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.notFoundContainer {
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	padding: 2vmax;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+.notFoundContainer > svg {
+	font-size: 5vmax;
+}
+
+.notFoundContainer > a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width) {
+	.notFoundContainer {
+		width: 100%;
+	}
+}

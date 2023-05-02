@@ -1,0 +1,65 @@
+.update {
+	min-height: 100vh;
+	background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2vmax;
+	box-sizing: border-box;
+}
+
+.updateForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border-radius: 30px;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 1vmax;
+}
+
+.updateInputs {
+	box-sizing: border-box;
+	padding: 1vmax 2vmax;
+	outline: none;
+	width: 80%;
+	margin: 1vmax;
+	border-radius: 40px;
+	border: 1px solid #ccc;
+	font: 100 1.2rem "Roboto", sans-serif;
+}
+
+.updateForm > input[type="file"] {
+	margin: 2vmax;
+	border-radius: 30px;
+}
+
+.updateForm > input[type="file"]::-webkit-file-upload-button {
+	background-color: blue;
+	width: 100%;
+	color: white;
+	padding: 1vmax;
+	border: none;
+	font: 100 1.2rem "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+	.updateForm {
+		width: 100%;
+	}
+
+	.updateForm > input {
+		padding: 2vmax;
+		margin: 2vmax;
+	}
+
+	.updateForm > input[type="file"] {
+		width: 100%;
+	}
+
+	.updateForm > input[type="file"]::-webkit-file-upload-button {
+		width: 70%;
+		border-radius: 40px;
+	}
+}
